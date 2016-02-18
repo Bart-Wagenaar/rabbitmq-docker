@@ -1,1 +1,0 @@
-rabbitmqctl add_vhost rabbitmq && rabbitmqctl add_user myuser mypasswd && rabbitmqctl set_permissions -p rabbitmq myuser ".*" ".*" ".*" && rabbitmqctl set_user_tags myuser administrator
