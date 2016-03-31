@@ -1,7 +1,7 @@
 #
 # Docker file for rabbitMQ with shovel management enabled
 #
-FROM rabbitmq:3.6.0-management
+FROM rabbitmq
 
 MAINTAINER Merapar
 
